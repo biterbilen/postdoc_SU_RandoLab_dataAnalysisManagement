@@ -1,11 +1,11 @@
 library(ShortRead)
 library(parallel)
-source("~/Projects/biter_biter_shared/bin/bigData.R")
 
+source(paste0(bindir, "/bigData.R"));
 
 test.caller.qa <-
 	function() {
-		source("~/Projects/biter_biter_shared/bin/auxShortRead.R")
+		source(paste0(bindir, "auxShortRead.R"))
 
 		# 1.
 		dataDir <- "~/Projects/biter_wosczyna_miRNAsInMuscleCellFate/data/Wosczyna_2015/PullDown/rawData/"

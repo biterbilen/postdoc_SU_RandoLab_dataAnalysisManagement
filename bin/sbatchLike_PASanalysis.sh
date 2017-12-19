@@ -141,6 +141,7 @@ bamsto5pbed() {
 		sort -k1,1 -k2,2g -k6,6 | bedtools groupby -g 1,2,3,6 -o count -c 1 | \
 		awk 'BEGIN{OFS="\t"; k=0; }{ print $1,$2,$3,++k,$5,$4; }'
 }
+
 bedtoautodist() {
 	local fle=$1
 	local d=${2:-50}

@@ -6,5 +6,9 @@
 2.		sbatch_rm.sh
 2.1		sbatch_gb.sh
 3.		sbatch_fc.sh
-4.		sbatch_eg.sh
+4.		sbatch_er.sh
 5.		sbatch_de.sh
+6.		sbatch_gs.sh
+7.		sbatch_ff.sh
+8.		sbatch_ds.sh
+
